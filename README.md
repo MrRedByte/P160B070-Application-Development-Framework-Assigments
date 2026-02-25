@@ -1,7 +1,9 @@
 # P160B070-Application-Development-Framework-Assigments
+
 Assignments for this class
 
 Commands:
+
 ```bash
 composer create-project laravel/laravel PrjName
 
