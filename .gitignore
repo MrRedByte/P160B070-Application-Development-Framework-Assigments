@@ -64,4 +64,9 @@
 **/Homestead.yaml
 **/Homestead.json
 
+# =========================
+# Humongous node modules
+# =========================
+**/node_modules
+
 template.md
