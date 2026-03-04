@@ -18,6 +18,7 @@
                                 <th>Birth date</th>
                                 <th>Phone</th>
                                 <th>Email</th>
+                                <th>Subjects</th>
                                 <th>Actions</th>
                             </tr>
                         </thead>
@@ -29,6 +30,12 @@
                                 <td>{{ $lecturer->birthday }}</td>
                                 <td>{{ $lecturer->phone }}</td>
                                 <td>{{ $lecturer->email }}</td>
+                                <td>
+                                    @foreach($lecturer->subjects as $subject)
+                                        <div>{{ $subject->name }}</div>
+
+                                    @endforeach
+                                </td>
                                 <td>
                                     <a href="{{ route('lecturers.edit', $lecturer->id) }}" class="btn btn-info">Edit</a>
                                     <a href="{{ route('lecturers.delete', $lecturer->id) }}" class="btn btn-danger">Delete</a>

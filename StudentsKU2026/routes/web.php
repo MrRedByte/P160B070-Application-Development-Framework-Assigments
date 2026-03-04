@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LecturersController;
+use App\Http\Controllers\SubjectController;
 use App\Models\Lecturer;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,14 @@ Route::post('/lecturers', [LecturersController::class,'store'])->name('lecturers
 Route::get('/lecturers/{lecturer}', [LecturersController::class,'edit'])->name('lecturers.edit');
 Route::put('/lecturers/{lecturer}', [LecturersController::class,'update'])->name('lecturers.update');
 Route::get('/lecturers/{lecturer}/delete', [LecturersController::class,'delete'])->name('lecturers.delete');
+
+Route::resource('subjects', SubjectController::class);
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
