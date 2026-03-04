@@ -63,3 +63,5 @@
 **/.vagrant
 **/Homestead.yaml
 **/Homestead.json
+
+./template.md
