@@ -1,21 +1,7 @@
 # P160B070-Application-Development-Framework-Assigments
 
-Assignments for this class
+Assignments and materials used in the class
 
-Commands:
+KU-calculator from: [Ku_Calculator_Repo](https://github.com/GediminasGricius/KU_calculator_2026)
 
-```bash
-composer create-project laravel/laravel PrjName
-
-cd PrjName
-
-npm install
-
-composer require laravel/ui
-
-php artisan ui bootstrap
-
-php artisan migrate
-
-php artisan migrate:fresh
-```
+StudentsKU from: [Students_Ku_Repo](https://github.com/GediminasGricius/StudentsKU2026)
