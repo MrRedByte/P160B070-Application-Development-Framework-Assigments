@@ -68,6 +68,7 @@
 # Humongous node modules
 # =========================
 **/node_modules
+**/.planning
 
 **/README.md
 
