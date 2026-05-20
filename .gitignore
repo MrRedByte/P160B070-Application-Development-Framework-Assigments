@@ -71,5 +71,5 @@
 **/.planning
 
 **/README.md
-
+**/*.json
 template.md
